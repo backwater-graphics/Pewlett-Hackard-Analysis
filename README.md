@@ -2,11 +2,11 @@
 
 Pewlett Hackard, is very large organization that has noticed that several thousand employees, are coming into retirement age and will cause what is known as the “silver tsunami”. The company would like an analysis done to find out how the “silver tsunami” will impact the company. The information that they would like me to analyze is as follows:
 
-1.	Identify the retiring employees by their title.
-2.	Determine the sum of retiring employees grouped by title.
-3.	Identify the employees eligible for participation in the mentorship program.
-4.	Determine the number of roles-to-fill grouped by title and department.
-5.	Determine the number of qualified, retirement-ready employees to mentor the next generation grouped by title and department.
+-	Identify the retiring employees by their title.
+-	Determine the sum of retiring employees grouped by title.
+-	Identify the employees eligible for participation in the mentorship program.
+-	Determine the number of roles-to-fill grouped by title and department.
+-	Determine the number of qualified, retirement-ready employees to mentor the next generation grouped by title and department.
 
 ## Results:
 ### Relational Database Diagram
@@ -20,16 +20,16 @@ Following the ERD I created the database in Postgres. The tables and queries wer
 
 ### Number of Retiring Employees by Title
 
-- There are 300,024 employees at the Pewlett Hacker company and of the that a total of 90,398 employees are set to retire from the company soon.
-- Most of the employees that will be retiring soon are in Senior positions at about 23.9% which will lead to a huge loss of knowledge within the company and fortunately, the company will only lose 2 managers, which means that will minimize the need to train new leadership.
-- We see the departments with the highest number of potential retirees are in Development coming in at around 25.45%, the next in line is production at 22.30% and last is sales at 7.27%.
+1.	There are 300,024 employees at the Pewlett Hacker company and of the that a total of 90,398 employees are set to retire from the company soon.
+2.	 Most of the employees that will be retiring soon are in Senior positions at about 23.9% which will lead to a huge loss of knowledge within the company and fortunately, the company will only lose 2 managers, which means that will minimize the need to train new leadership.
+3.	We see the departments with the highest number of potential retirees are in Development coming in at around 25.45%, the next in line is production at 22.30% and last is sales at 7.27%.
 
 ![Number of Retiring Employees by Department](https://github.com/backwater-graphics/Pewlett-Hackard-Analysis/blob/main/Media/dept-numbers.png)
 ---
 
 ### Employees Eligible for Mentorship Program
 
-- The number of employees who are eligible for the mentorship program is low at 1,549 employees in comparison to the number of retiring employees.
+4.	The number of employees who are eligible for the mentorship program is low at 1,549 employees in comparison to the number of retiring employees.
 
 ![Number of Retiring Employees for mentorship](https://github.com/backwater-graphics/Pewlett-Hackard-Analysis/blob/main/Media/numberofemployeesformentorship.png)
 ---
